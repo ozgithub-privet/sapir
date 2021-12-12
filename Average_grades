@@ -1,0 +1,16 @@
+import java.util.Iterator;
+import java.util.Scanner;
+public class avrage_grade {
+
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+
+        System.out.print("please inpute 3 grade: ");
+        Double num1,num2,num3;
+        num1 = input.nextDouble();
+        num2 = input.nextDouble();
+        num3 = input.nextDouble();
+        System.out.print("Your grade avrage is : "+ ((num1+num2+num3)/3));
+        }
+    }
+
