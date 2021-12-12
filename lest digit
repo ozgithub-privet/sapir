@@ -1,0 +1,15 @@
+import java.util.Iterator;
+import java.util.Scanner;
+public class test1 {
+
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+
+        System.out.print("please enter a natural number number: ");
+        Double num1;
+        num1= input.nextDouble()%10;
+        System.out.print("Your number is: "+num1);
+
+        }
+    }
+
